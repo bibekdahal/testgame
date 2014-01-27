@@ -12,4 +12,4 @@ void main()
 {
 	gl_Position = mvp * vPosition;
 	fTexCoord = vTexCoord + uv;
-};
+}
