@@ -51,11 +51,11 @@ void Renderer::CleanUp()
 void Renderer::InitShaders()
 {
 	std::vector<ShaderInfo> shaders = {
-		{ GL_VERTEX_SHADER, "Shaders\\vs_skin.glsl" },
-		{ GL_FRAGMENT_SHADER, "Shaders\\fs_normal3d.glsl" },
-		{ GL_VERTEX_SHADER, "Shaders\\vs_normal3d.glsl" },
-		{ GL_FRAGMENT_SHADER, "Shaders\\fs_sprite.glsl" },
-		{ GL_VERTEX_SHADER, "Shaders\\vs_sprite.glsl" },
+		{ GL_VERTEX_SHADER, "shaders\\vs_skin.glsl" },
+		{ GL_FRAGMENT_SHADER, "shaders\\fs_normal3d.glsl" },
+		{ GL_VERTEX_SHADER, "shaders\\vs_normal3d.glsl" },
+		{ GL_FRAGMENT_SHADER, "shaders\\fs_sprite.glsl" },
+		{ GL_VERTEX_SHADER, "shaders\\vs_sprite.glsl" },
 	};
 
 	std::vector<ProgramInfo> programs = { 
